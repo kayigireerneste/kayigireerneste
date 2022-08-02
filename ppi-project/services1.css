@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Staatliches', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+}
+
+.pharmacies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 50px auto;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+#phar{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 15px;
+    cursor: pointer;
+    flex-basis: 24%;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+}
+
+#phar:hover{
+    background-color: #faebd76c;
+}
+
+#phar a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    background: #faebd7;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#phar a:hover{
+     background-color: lightblue;
+}
+
+button{
+    background: #20b2abd1;
+    color: #ffffff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    transition: .4s;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+button:hover{
+    background: #000000;
+    font-size: 13.2px;
+}
+
+.title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.title h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #70b1c6f6;
+    text-transform: uppercase;
+}
+
+.title p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    visibility: visible;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: darkgray;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: #20b2abd1;
+}
+
+footer p{
+    background-color: #20b2abd1;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}

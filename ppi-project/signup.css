@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background: url("/signup-back.png");
+    font-family: 'Staatliches', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+    width: 100%;
+    height: 80vh;
+}
+
+.signup-form{
+    width: 250px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+    background: #faebd7;
+    padding: 20px;
+    margin: 45px auto 0;
+    text-align: center;
+}
+
+.signup-form h1{
+    color: #1c8adb;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputs{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.signup-button{
+    color: white;
+    width: 50%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+}
+
+.signup-button1{
+    color: white;
+    width: 80%;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1c8adb;
+}
+
+hr{
+    margin-top: 12px;
+    width: 100%;
+}
+
+.or{
+    background: #faebd7;
+    width: 30px;
+    margin: -15px auto 10px;
+}
+
+img{
+    width: 70px;
+    margin-top: -55px;
+}
+
+p{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    visibility: visible;
+}
+
+.signup-button:hover{
+    background: #1c8adb;
+    color: #fff;
+}
+
+.signup-button1:hover{
+    background: #1c8adb;
+    color: #fff;
+}
+
+button{
+    background: #20b2abd1;
+    color: #ffffff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    transition: .4s;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+button:hover{
+    background: #000000;
+    font-size: 13.2px;
+}
